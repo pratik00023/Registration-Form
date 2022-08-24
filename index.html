@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>form</title>
+    <link rel="shortcut icon" href="img/75291.jpg" type="image/x-icon" />
+  </head>
+  <style>
+    body {
+      background-color: rgb(122, 139, 109);
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1><u>PERSONAL INFORMATION</u></h1>
+    <form>
+      First name :
+      <input type="text" name="name" placeholder="firstname" /><br /><br />
+
+      Middle name:
+      <input type="text" name="name" placeholder="middlename" /><br /><br />
+
+      Last name:
+      <input type="text" name="name" placeholder="lastname" /><br /><br />
+
+      Gender :
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="others" />Others<br /><br />
+
+      E-mail :
+      <input type="email" name="name" placeholder="email" />
+      <input type="submit" /></styl><br /><br />
+
+      Username :
+      <input type="text" name="username" placeholder="username" /><br /><br />
+
+      Password :
+      <input type="password" name="password" />
+
+      <input type="submit" /><br /><br />
+
+      Mobile :
+      <input type="text" name="mobile" maxlength="10" /><br /><br />
+
+      Birthday :
+      <input type="date" name="bday" />
+      <br /><br />
+
+      Hobbies:
+      <input type="checkbox" name="hobbies" value="paying games" />Playing games
+      <input type="checkbox" name="hobbies" value="writting" />writting
+      <input type="checkbox" name="hobbies" value="Playing sports" />Playing
+      sports
+      <input
+        type="checkbox"
+        name="hobbies"
+        value="reading"
+      />Reading<br /><br />
+
+      Qualification :
+      <input
+        list="Qualification"
+        name="Qualification"
+        placeholder="--select degree--"
+      />
+      <datalist id="Qualification">
+        <option value="SSC"></option>
+        <option value="HSC"></option>
+        <option value="Graduate"></option>
+      </datalist>
+
+      <br /><br />
+
+      ADDRESS:
+      <textarea name="address" rows="3" cols="50"> </textarea><br /><br />
+
+      Attach Resume:
+      <input
+        type="file"
+        name="resume"
+        required
+        multiple
+      /><br /><br /><br /><br />
+
+      <input
+        type="submit"
+        name="SUBMIT"
+        style="
+          background-color: rgb(123, 255, 0);
+          width: 150px;
+          height: 40px;
+          padding: 10px;
+        "
+      />
+      <input
+        type="reset"
+        name="RESET"
+        style="
+          background-color: rgb(119, 255, 0);
+          width: 150px;
+          height: 40px;
+          padding: 10px;
+        "
+      />
+    </form>
+  </body>
+</html>
